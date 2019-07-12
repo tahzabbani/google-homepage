@@ -2,3 +2,19 @@
     text-align: center;
     padding-top: 180px;
 }
+
+.field {
+    padding-top: 15px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: gray;
+    margin: 25px;
+}
+
+.logo {}
+
+.search-buttons {
+    background-color: #f2f2f2;
+    height: 30px;
+    font-family: Arial, sans-serif;
+}
