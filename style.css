@@ -7,14 +7,85 @@
     padding-top: 15px;
     background-color: white;
     border-radius: 20px;
-    border-color: gray;
+    border: 1px solid gray;
     margin: 25px;
 }
-
-.logo {}
 
 .search-buttons {
     background-color: #f2f2f2;
     height: 30px;
     font-family: Arial, sans-serif;
+}
+
+.search-buttons:hover {
+    border: 1px solid lightgray;
+}
+
+.header {
+    font-size: 13px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-left {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    text-align: left;
+    word-spacing: 10px;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu-left li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu-right {
+    position: absolute;
+    top: -12px;
+    right: 15px;
+    word-spacing: 20px;
+    padding-top: 1px;
+}
+
+.menu-right li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+img#apps-button {
+    height: 15px;
+    width: 15px;
+    opacity: 0.55;
+    top: 4px;
+    position: relative;
+}
+
+img#apps-button:hover {
+    opacity: 1;
+}
+
+img#prof-pic {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    top: 10px;
+}
+
+.header-buttons {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
 }
