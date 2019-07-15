@@ -21,7 +21,8 @@
     border: 1px solid lightgray;
 }
 
-.header {
+.header,
+.footer {
     font-size: 13px;
 }
 
@@ -40,14 +41,17 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #5f6368;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.menu-left li {
+.menu-left li,
+.left-footer li,
+.menu-right li,
+.right-footer li {
     list-style-type: none;
     display: inline-block;
 }
@@ -58,11 +62,6 @@ a:hover {
     right: 15px;
     word-spacing: 20px;
     padding-top: 1px;
-}
-
-.menu-right li {
-    list-style-type: none;
-    display: inline-block;
 }
 
 img#apps-button {
@@ -85,7 +84,36 @@ img#prof-pic {
     top: 10px;
 }
 
-.header-buttons {
+.buttons {
     font-family: Arial, sans-serif;
     font-size: 13px;
+}
+
+.footer {
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    min-width: 1139px;
+    border: 1px solid lightgray
+}
+
+.right-footer {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    word-spacing: 20px;
+    text-align: right;
+}
+
+.left-footer {
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+    text-align: left;
+}
+
+.left-footer a {
+    margin-right: 20px;
 }
